@@ -6,7 +6,7 @@ But I also have a desire to make a scripting language for [my custom game engine
 
 However, jumping head-first into the deep end of compiler development has been, at best, a bit of a failure. You can see [my previous attempt](https://github.com/HoneyPony/ponyscript) fizzled out pretty quickly.
 
-So over the summer I thought I should finally sit down and work through Crafting Interpreters, so that I at least had some experience building a complete programming language product.
+So over the summer I thought I should finally sit down and work through Crafting Interpreters, so that I at least had some experience building a complete programming language product. What started out as an interpreter ended up as a transpiler that outputs C, and I learned a lot along the way.
 
 ## Building the Interpreter
 
