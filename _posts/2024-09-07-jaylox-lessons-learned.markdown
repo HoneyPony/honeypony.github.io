@@ -12,7 +12,7 @@ So over the summer I thought I should finally sit down and work through Crafting
 
 My secondary goal with working through Crafting Interpreters was to improve my Rust abilities, as I keep trying to write compilers in Rust (which is a hard way to learn it). I figured porting the code from Crafting Interpreters, which is already architected for me and working well, would help me learn Rust better than going in blind on my own project.
 
-So the first thing I did was work through the first half of the book, writing an interpreter in Java, but in Rust. I decided to call this project "jaylox" for no particular reason.
+So the first thing I did was work through the first half of the book, writing an interpreter in Java, but in Rust. I decided to call this project "jaylox" as it is based on "jlox" but written in Rust (and, as we will see, eventually quite different).
 
 Within a few weeks I had completed everything I wanted to from the first chapter! The main thing that was missing was garbage collection, which I think would be annoying at best to implement in Rust. Everything was instead simply reference-counted, and although this meant leaks were possible, oh well.
 
